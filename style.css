@@ -1,0 +1,22 @@
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+input{
+    margin-top: 10px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    font-size: 1rem;
+}

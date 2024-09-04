@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Find Your Discound</h1>
+        <p><strong>Note : </strong>If you buy one product, You will not get any discount </p>
+        <p><strong>Note : </strong>If you buy Two product, You will get 2% discount </p>
+        <p><strong>Note : </strong>If you buy Four product, You will get 5% discount </p>
+
+        <input type="number" name="productNumber" id="productNumber" placeholder="Enter your product number">
+
+        <input type="number" name="totalPrice" id="totalPrice" placeholder="Enter your total price"><br>
+        <button onclick="findDiscount()">Find Discound</button>
+
+
+        <div id="priceContainer">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
